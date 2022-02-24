@@ -62,14 +62,14 @@
             <label for="titulo" class="col-form-label">Título</label>
             <input type="text" class="form-control" id="titulo" placeholder="Digite o título">
           </div>
-          
+
           <div class="form-group">
             <label for="texto" class="col-form-label">Texto</label>
             <textarea class="form-control" nome="texto" id="texto" rows="3"></textarea>
           </div>
 
           <div class="form-group">
-            <label for="texto" class="col-form-label">Escolha um tema ou <a href="">cadastre um novo: </a></label>
+            <label for="texto" class="col-form-label">Escolha um tema ou <a data-dismiss="modal" routerLink="/tema">cadastre um novo: </a></label>
             <select name="tema" id="tema" class="form-control">
                 <option value="">Temas</option>
             </select>
@@ -79,7 +79,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-        <button type="button" class="btn btn-info">Publicar</button>
+        <button type="button" class="btn btn-info" >Publicar</button>
       </div>
     </div>
   </div>
